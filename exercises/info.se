@@ -104,3 +104,22 @@
   Note that in this exercise you're also getting introduced to a new syntax of handing a labelled argument to a \
   function call: `~length:4` is a way of handing in the labelled argument `length` as `4`. \n\n\
   For more information on functions, see https://dev.realworldocaml.org/variables-and-functions.html#functions"))
+
+(exercise
+ (name operators)
+ (path "2.functions/g_operators/g_operators.ml")
+ (hint "You have already come across different binary operators such as `+`, `+.`, `-`, `^`, etc. In OCaml we can define and redefine binary operators. The syntax is: `let (<operator>) ma b = ...` defines a new binary operator `<operator>`, which can be used as `a <operator> b`.\n\
+ The percentage computation can be done as follows: `a /. 100 *. p`\n\n\
+ For more information on functions, see https://dev.realworldocaml.org/variables-and-functions.html#functions"))
+
+(exercise
+ (name functions_as_parameters)
+ (path "2.functions/h_functions_as_parameters/h_functions_as_parameters.ml")
+ (hint "\n\n\
+ For more information on functions, see https://dev.realworldocaml.org/variables-and-functions.html#functions"))
+
+(exercise
+ (name precedence)
+ (path "2.functions/i_precedence/i_precedence.ml")
+ (hint "\n\n\
+ For more information on functions, see https://dev.realworldocaml.org/variables-and-functions.html#functions"))

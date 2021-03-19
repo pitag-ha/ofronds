@@ -1,0 +1,11 @@
+; (* -------- local shadowing ----------- *)
+
+; (* min_float is another variable in the standard library.*)
+; let () = assert (min_float = 2.22507385850720138e-308)
+; let () = let min_float = "hi" in
+;   assert (min_float = "hi")
+
+; (* We've only shadowed it locally. *)
+; let () = assert (min_float = 2.22507385850720138e-308)
+
+; TODO: come back to this exercise ;D *)
